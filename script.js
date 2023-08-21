@@ -17,7 +17,7 @@ function createNewBubbles(){
 
 
 function runTimer(){
-    let timeInSeconds = 10 ;
+    let timeInSeconds = 30 ;
     let t = setInterval(()=>{
         if(timeInSeconds > 0){
             timeInSeconds -- ;
